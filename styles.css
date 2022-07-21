@@ -1,0 +1,33 @@
+    body {font-family: 'Google Sans', sans-serif; color: #323330; background-color: #F0DB4F;}  
+    .center {text-align: center;}
+    .code {font-family: 'Jetbrains mono'; background-color: #323330; color: #CDCCCF; border-radius: 10px; outline-color: rgb(255, 250, 250); outline-style: solid; outline-width: 3px; padding: 10px;}
+    .link {color:rgb(0, 21, 254); text-decoration: none;}
+    .link:hover {color:rgb(43, 55, 186); text-decoration: none;}
+    table {
+        font-family: 'Source Code Pro', monospace;
+        border-collapse: collapse;
+        width: 100%;
+        background-color: white
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+    .bold {font-weight: bold}
+    .smooth{border-radius: 10px;}
+    .display {list-style-type: inherit; list-style-position: inside; color:#323330}
+    .block {font-family: 'Jetbrains mono'; background-color: #323330; color: #CDCCCF; border-radius: 10px; outline-color: rgb(255, 250, 250); outline-style: solid; outline-width: 3px;}
+    .container {
+        display: flex;
+      }
+      img {
+        max-width: 100%
+      }
+      .image {
+        flex-basis: 70%;
+        order: 2;
+      }
+      .right {text-align: right;}
+      .hide{display:none;}
